@@ -26,7 +26,7 @@ void createtree(){
 
 void insertnode(){
     int chave;
-    printf("Type the number to be addicted: ");
+    printf("Type the number to be added: ");
     scanf("%d" , &chave);
     struct node* newelement=(struct node*)calloc(1,sizeof(struct node));
     if(root==NULL){
